@@ -1,14 +1,24 @@
 import Logo from "./Logo";
 import Navlinks from "./Navlinks";
+import { GiHamburgerMenu } from "react-icons/gi";
 
+import { useRecoilState } from "recoil";
+import { hamburgerOpenAtom } from "../../atoms/atoms";
 const Navbar = () => {
+  const [hamburgerOpen, setHamburgerOpen] = useRecoilState(hamburgerOpenAtom);
   return (
-    <div className="shadow-inner  shadow-black flex  glass justify-between h-16 items-center  ">
+    <div className="shadow-inner relative shadow-black flex  glass justify-between h-16 items-center  ">
       <div className="pl-10 ">
         <Logo />
       </div>
-      <div className="pr-10">
+      <div className=" hidden md:block">
         <Navlinks />
+      </div>
+      <div
+        className="md:hidden text-2xl pr-7 "
+        onClick={() => setHamburgerOpen(!hamburgerOpen)}
+      >
+        {!hamburgerOpen && <GiHamburgerMenu />}
       </div>
     </div>
   );
