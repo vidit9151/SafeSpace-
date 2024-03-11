@@ -4,6 +4,8 @@ import { RecoilRoot } from "recoil";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <RecoilRoot>
-    <App />
+    <div>
+      <App />
+    </div>
   </RecoilRoot>
 );

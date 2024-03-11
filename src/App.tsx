@@ -11,6 +11,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
+
       {ham && <MobTabNav />}
       <Routes>
         <Route path="/" element={<Home_Page />} />
