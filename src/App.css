@@ -7,6 +7,9 @@ html,
 #root {
   @apply m-0 p-0 font-merri;
 }
+body {
+  position: relative;
+}
 
 .glass {
   background: linear-gradient(

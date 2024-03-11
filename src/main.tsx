@@ -4,7 +4,7 @@ import { RecoilRoot } from "recoil";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <RecoilRoot>
-    <div>
+    <div className="relative">
       <App />
     </div>
   </RecoilRoot>

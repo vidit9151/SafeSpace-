@@ -14,7 +14,7 @@ const MobTabNav = () => {
       >
         <IoCloseSharp />
       </div>
-      <div className=" flex justify-center flex-col  h-[100vh] gap-3 items-center">
+      <div className=" flex pt-20 justify-start flex-col  h-[100vh] gap-3 items-center font-semibold">
         {menuLinksArr.map(({ id, title, to }) => (
           <div key={id} className="hover:scale-105   ">
             <Link to={to}>{title}</Link>
