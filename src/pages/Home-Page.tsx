@@ -1,9 +1,10 @@
-import { Hero } from "../components";
+import { Hero, Products } from "../components";
 
 const Home_Page = () => {
   return (
     <div>
       <Hero />
+      <Products />
     </div>
   );
 };

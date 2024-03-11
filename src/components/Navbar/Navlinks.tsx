@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { menuLinksArr } from "../links/MenuLinks.data";
+import { menuLinksArr } from "../../links/MenuLinks.data";
 
 const Navlinks = () => {
   return (
