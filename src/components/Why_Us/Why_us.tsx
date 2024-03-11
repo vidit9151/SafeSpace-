@@ -28,6 +28,8 @@ const Why_us = () => {
             </li>
             <br />
             <li>Our Room Freshners are water based</li>
+            <br />
+            <li>No Minimum order quantity</li>
           </ul>
         </div>
       </div>
