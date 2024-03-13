@@ -3,9 +3,9 @@ import App from "./App.tsx";
 import { RecoilRoot } from "recoil";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <RecoilRoot>
-    <div className="relative">
+  <div className="relative">
+    <RecoilRoot>
       <App />
-    </div>
-  </RecoilRoot>
+    </RecoilRoot>
+  </div>
 );

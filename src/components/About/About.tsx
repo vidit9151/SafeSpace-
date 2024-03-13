@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="glass  mt-5 mx-2 text-center px-4 pb-4 ">
       <h1 className="text-2xl md:text-4xl pt-7 pb-4  ">About us</h1>
-      <div className=" bg-blue-300  text-center   justify-center shadow-inner shadow-black p-8 ">
+      <div className=" bg-blue-300  text-center   justify-center  p-8 ">
         Welcome to SafeSpace, your one-stop destination for all your toiletry
         needs! At SafeSpace, we believe in providing high-quality products at
         affordable prices, ensuring that everyone can access essential items

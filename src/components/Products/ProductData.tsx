@@ -9,8 +9,8 @@ export const ProductsData = [
 
   {
     id: 2,
-    title: "Glass and Multisurface Cleaner",
-    quantity: "500ml ,5000ml",
+    title: "Car Wash ",
+    quantity: " 1000ml ,5000ml",
     img: Product1,
   },
 
@@ -62,5 +62,10 @@ export const ProductsData = [
     quantity: " 1000ml ,5000ml",
     img: Product1,
   },
-  { id: 11, title: "Car Wash ", quantity: " 1000ml ,5000ml", img: Product1 },
+  {
+    id: 11,
+    title: "Glass and Multisurface Cleaner",
+    quantity: "500ml ,5000ml",
+    img: Product1,
+  },
 ];
